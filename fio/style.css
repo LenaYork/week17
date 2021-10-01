@@ -1,0 +1,65 @@
+.fio-form {
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item {
+    margin: 3px 0;
+}
+
+.userSurname {
+    margin-bottom: 15px;
+}
+
+.errorMessage {
+    margin-top: 5px;
+    color: red;
+    font-weight: bold;
+}
+
+.error {
+    border: 3px solid red;
+}
+
+.error:active, .error:focus {
+    outline: none;
+    border: 3px solid red;
+}
+
+.errorMessage {
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.button {
+    border-radius: 25px;
+    color: olive;
+    background-color: azure;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button:active {
+    color: black;
+    border: 2px solid #3a3a08;
+}
+
+.disabled {
+    color: grey;
+    background-color: silver;
+}
+
+.disabled:hover {
+    cursor: not-allowed; 
+}
+
+.result {
+    color: green;
+    font-size: large;
+    font-weight: bold;
+}
