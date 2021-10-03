@@ -1,0 +1,9 @@
+.number {
+    font-size: larger;
+    font-weight: bold;
+    color: green;
+}
+
+button:hover {
+    cursor: pointer;
+}
